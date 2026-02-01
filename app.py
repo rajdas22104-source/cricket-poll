@@ -223,20 +223,20 @@ else:
 
 
 
-admin=st.text_input("admin hi khede")
-password=st.text_input("password tumhe nhi pata hoga")
-if password=="raj@1234#&raj":
-     ok=st.checkbox("ok")
-     if ok is True:
-          phno = team[b]
-          wb.open(f"https://web.whatsapp.com/send?phone={phone[phno]}")                #reach you to chat webpage
-          time.sleep(20)
-          a=0 
-          while a<1:                                                   #this type and send msg in loop 
-               ag.typewrite("chal bhai paise aagye ustaad ball ke liye")
-               ag.press("Enter")
-               time.sleep(0.6)
-               a+=1
+# admin=st.text_input("admin hi khede")
+# password=st.text_input("password tumhe nhi pata hoga")
+# if password=="raj@1234#&raj":
+#      ok=st.checkbox("ok")
+#      if ok is True:
+#           phno = team[b]
+#           wb.open(f"https://web.whatsapp.com/send?phone={phone[phno]}")                #reach you to chat webpage
+#           time.sleep(20)
+#           a=0 
+#           while a<1:                                                   #this type and send msg in loop 
+#                ag.typewrite("chal bhai paise aagye ustaad ball ke liye")
+#                ag.press("Enter")
+#                time.sleep(0.6)
+#                a+=1
 
 else:
      st.empty()
@@ -252,3 +252,4 @@ else:
 #                ag.press("Enter")
 #                time.sleep(0.6)
 #                a+=1
+
