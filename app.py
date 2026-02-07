@@ -238,8 +238,8 @@ else:
 #                time.sleep(0.6)
 #                a+=1
 
-else:
-     st.empty()
+# else:
+     # st.empty()
 # if b:
       
 #       if ok is True:
@@ -252,4 +252,5 @@ else:
 #                ag.press("Enter")
 #                time.sleep(0.6)
 #                a+=1
+
 
